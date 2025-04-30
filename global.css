@@ -1,0 +1,51 @@
+:root 
+{
+    --black: #000;
+    --dark: #222222;
+    --dark-gray: #282829;
+    --gray: #55565A;
+    --desert: #D5C9BE;
+    --white: #fff;
+
+    
+    --prata-regular: 'Prata-Regular';
+    --aria-bold: 'Arial-Bold';
+    --arial-regular: 'Arial-regular';
+    --arial-italic: 'Arial-Italic';
+    
+    --text-80: 5rem;
+    --text-54: 3.375rem;
+    --text-50: 3.125rem;
+    --text-40: 2.5rem;
+    --text-36: 2.25rem;
+    --text-24: 1.5rem;
+    --text-20: 1.25rem;
+    --text-19: 1.188rem;
+    --min-font-size: 16px;
+
+    --smooth-transition: .2s ease-in;
+    --spacing-saction: 100px;
+    --border-radius: 4px;
+}
+body 
+{
+    background-color: var(--dark-gray);
+    max-width: 1920px;
+    margin-inline: auto;
+    width: 100%;
+    font-family: var(--arial-regular);
+    font-size: var(--min-font-size);
+    color: var(--white);
+}
+.logo 
+{
+    font-family: var(--prata-regular);
+    font-size: var(--text-36);
+    line-height: 150%;
+    letter-spacing: 0.03em;
+}
+h1 
+{
+    font-size: var(--text-80);
+    font-family: var(--prata-regular);
+}
