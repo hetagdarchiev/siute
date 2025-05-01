@@ -1,18 +1,16 @@
-:root 
-{
+:root {
     --black: #000;
     --dark: #222222;
     --dark-gray: #282829;
-    --gray: #55565A;
-    --desert: #D5C9BE;
+    --gray: #55565a;
+    --desert: #d5c9be;
     --white: #fff;
 
-    
-    --prata-regular: 'Prata-Regular';
-    --aria-bold: 'Arial-Bold';
-    --arial-regular: 'Arial-regular';
-    --arial-italic: 'Arial-Italic';
-    
+    --prata-regular: "Prata-Regular";
+    --aria-bold: "Arial-Bold";
+    --arial-regular: "Arial-regular";
+    --arial-italic: "Arial-Italic";
+
     --text-80: 5rem;
     --text-54: 3.375rem;
     --text-50: 3.125rem;
@@ -23,12 +21,11 @@
     --text-19: 1.188rem;
     --min-font-size: 16px;
 
-    --smooth-transition: .2s ease-in;
+    --smooth-transition: 0.2s ease-in;
     --spacing-saction: 100px;
     --border-radius: 4px;
 }
-body 
-{
+body {
     background-color: var(--dark-gray);
     max-width: 1920px;
     margin-inline: auto;
@@ -37,15 +34,16 @@ body
     font-size: var(--min-font-size);
     color: var(--white);
 }
-.logo 
-{
+.logo {
     font-family: var(--prata-regular);
     font-size: var(--text-36);
     line-height: 150%;
     letter-spacing: 0.03em;
 }
-h1 
-{
+h1 {
     font-size: var(--text-80);
     font-family: var(--prata-regular);
+    @media (max-width: 1025px) {
+        font-size: var(--text-50);
+    }
 }
