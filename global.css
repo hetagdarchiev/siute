@@ -2,7 +2,10 @@
     --black: #000;
     --dark: #222222;
     --dark-gray: #282829;
+    --gray-swamp: #38535d;
     --gray: #55565a;
+    --gray-light: #d6d6d6;
+    --swamp: #405d65;
     --desert: #d5c9be;
     --white: #fff;
 
@@ -24,6 +27,7 @@
     --smooth-transition: 0.2s ease-in;
     --spacing-saction: 100px;
     --border-radius: 4px;
+    --border-radius-high: 30px;
 }
 body {
     background-color: var(--dark-gray);
