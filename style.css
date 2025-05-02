@@ -513,3 +513,17 @@
 {
     color: var(--desert);
 }
+.social-ico 
+{
+    path
+    {
+        transition: var(--smooth-transition);
+    }
+}
+.social-ico:hover 
+{
+    path
+    {
+        stroke: var(--white);
+    }
+}
